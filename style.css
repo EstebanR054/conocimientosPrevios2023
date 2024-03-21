@@ -9,7 +9,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: linear-gradient(to right, #145A32, #59D20A);
+    background-image: linear-gradient(to right, #000000, #ff6d6d);
 }
 
 #navegador ul{
@@ -25,7 +25,7 @@ body {
 #navegador li a {
     padding: 30px 60px 30px 60px;
     color: white;
-    background-image: linear-gradient(to right, #98ec64,#a7e47f );
+    background-image: linear-gradient(to right, #ff0000,#000000 );
     text-decoration: none;
     border-radius: 10px;
 }
@@ -37,8 +37,11 @@ body {
 
 .t1 {
     text-align: center;
-    color: white;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
+    margin-top: 5%;
+    background: linear-gradient(to right, white, black);
 }
 
 li {
@@ -56,7 +59,6 @@ li {
 .tabla th{
    text-align: center;
    margin-bottom: 40px;
-   
 }
 
 table {
@@ -67,12 +69,14 @@ table {
 th, td {
    border: 1px solid black;
    margin-bottom: 40px;
+   margin-top: 30%; 
 } 
 
 h2 {
     text-align: center;
     color: #fff;
     margin-bottom: 40px;
+    margin-top: 3%;
 }
 
 h3{
@@ -87,8 +91,8 @@ h4{
 }
 
 button {
-    background-color: #59D20A;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     border: none;
     padding: 10px;
     font-size: 16px;
